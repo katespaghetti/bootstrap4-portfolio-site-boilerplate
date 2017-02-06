@@ -1,0 +1,38 @@
+body#website-main-container {
+  max-width: 1500px;
+  margin: 0 auto !important; }
+  body#website-main-container a,
+  body#website-main-container a:focus,
+  body#website-main-container a:hover {
+    color: #000; }
+  body#website-main-container .navbar {
+    line-height: 1; }
+    body#website-main-container .navbar .nav-item a:hover,
+    body#website-main-container .navbar .nav-item.active a {
+      border-bottom: 2px solid #000; }
+  body#website-main-container .col-xs-12 {
+    padding: 0; }
+    body#website-main-container .col-xs-12 .work-panel {
+      height: 400px;
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      body#website-main-container .col-xs-12 .work-panel.top-left-panel {
+        background-color: #f6693f; }
+        body#website-main-container .col-xs-12 .work-panel.top-left-panel img {
+          max-height: 200px; }
+      body#website-main-container .col-xs-12 .work-panel.top-right-panel img {
+        max-height: 225px; }
+      body#website-main-container .col-xs-12 .work-panel.bottom-left-panel img {
+        max-height: 150px; }
+      body#website-main-container .col-xs-12 .work-panel.bottom-right-panel {
+        background-color: #636c72; }
+        body#website-main-container .col-xs-12 .work-panel.bottom-right-panel img {
+          max-height: 250px; }
+      body#website-main-container .col-xs-12 .work-panel img {
+        position: absolute;
+        z-index: 1;
+        max-width: 90%; }
+      body#website-main-container .col-xs-12 .work-panel:hover {
+        opacity: 0.5; }

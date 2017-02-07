@@ -4,7 +4,7 @@ body#website-main-container {
 	a,
 	a:focus,
 	a:hover {
-		color: #000;		
+		color: #000;
 	}
 
 	.navbar {
@@ -12,7 +12,7 @@ body#website-main-container {
 		.nav-item {
 		  a:hover,
 			&.active a {
-					border-bottom: 2px solid #000;
+				border-bottom: 2px solid #000;
 			}
 		}
 	}

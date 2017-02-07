@@ -26,13 +26,20 @@
 		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
 		    <ul class="navbar-nav mr-auto">
 		      <li class="nav-item px-5 active">
-		        <a class="nav-link" data-toggle="tab" href="#">Work <span class="sr-only">(current)</span></a>
+		        <a class="nav-link" data-toggle="tab" href="#work">
+		        	Work 
+		        	<span class="sr-only">(current)</span>
+		        </a>
 		      </li>
 		      <li class="nav-item px-5">
-		        <a class="nav-link" data-toggle="tab" href="#">About</a>
+		        <a class="nav-link" data-toggle="tab" href="#about">
+		        	About
+		        </a>
 		      </li>
 		      <li class="nav-item px-5">
-		        <a class="nav-link" data-toggle="tab" href="#">Resume</a>
+		        <a class="nav-link" data-toggle="tab" href="#resume">
+		        	Resume
+		        </a>
 		      </li>
 		    </ul>
 
@@ -57,45 +64,55 @@
 		  </div>
 		</nav>
 
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-xs-12 col-md-6">
-					<div class="work-panel top-left-panel">
-						<img src="https://placekitten.com/350/350" />
-						<div class="hidden-text-overlay hidden-xl-down">
-							This is some text that will appear when I hover over this container.
+		<div class="container-fluid tab-content">
+			<div class="tab-pane active" id="work" role="tabpanel">
+				<div class="row">
+					<div class="col-xs-12 col-md-6">
+						<div class="work-panel top-left-panel">
+							<img src="https://placekitten.com/350/350" />
+							<div class="hidden-text-overlay hidden-xl-down">
+								This is some text that will appear when I hover over this container.
+							</div>
+						</div>
+					</div>
+					<div class="col-xs-12 col-md-6">
+						<div class="work-panel top-right-panel">
+							<img src="https://placekitten.com/350/350" />
+							<div class="hidden-text-overlay hidden-xl-down">
+								This is some text that will appear when I hover over this container.
+							</div>
 						</div>
 					</div>
 				</div>
-				<div class="col-xs-12 col-md-6">
-					<div class="work-panel top-right-panel">
-						<img src="https://placekitten.com/350/350" />
-						<div class="hidden-text-overlay hidden-xl-down">
-							This is some text that will appear when I hover over this container.
+
+				<div class="row">
+					<div class="col-xs-12 col-md-6">
+						<div class="work-panel bottom-left-panel">
+							<img src="https://placekitten.com/350/350" />
+							<div class="hidden-text-overlay hidden-xl-down">
+								This is some text that will appear when I hover over this container.
+							</div>
+						</div>
+					</div>
+					<div class="col-xs-12 col-md-6">
+						<div class="work-panel bottom-right-panel">
+							<img src="https://placekitten.com/350/350" />
+							<div class="hidden-text-overlay hidden-xl-down">
+								This is some text that will appear when I hover over this container.
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 
-			<div class="row">
-				<div class="col-xs-12 col-md-6">
-					<div class="work-panel bottom-left-panel">
-						<img src="https://placekitten.com/350/350" />
-						<div class="hidden-text-overlay hidden-xl-down">
-							This is some text that will appear when I hover over this container.
-						</div>
-					</div>
-				</div>
-				<div class="col-xs-12 col-md-6">
-					<div class="work-panel bottom-right-panel">
-						<img src="https://placekitten.com/350/350" />
-						<div class="hidden-text-overlay hidden-xl-down">
-							This is some text that will appear when I hover over this container.
-						</div>
-					</div>
-				</div>
+			<div class="tab-pane" id="about" role="tabpanel">
+				Nada here yet.
+			</div>
+
+			<div class="tab-pane" id="resume" role="tabpanel">
+				Work work work work work.
 			</div>
 		</div>
-
+		
 	</body>
 </html>

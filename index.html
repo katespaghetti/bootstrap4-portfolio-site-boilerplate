@@ -4,13 +4,15 @@
 	<link href="main.css" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
 	<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+
+	<script src="./smooth-scroll-master/dist/js/smooth-scroll.js"></script>
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
 
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-
-	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
 </head>
 
@@ -68,29 +70,54 @@
 			<div class="tab-pane active" id="work" role="tabpanel">
 				<div class="row">
 					<div class="col-xs-12 col-md-6">
-						<div data-content="This is some text that will appear when I hover over this container." class="work-panel top-left-panel">
+						<a data-scroll href="#top-left-panel-link" data-content="This is some text that will appear when I hover over this container." class="work-panel top-left-panel">
 							<img src="https://placekitten.com/350/350" />
-						</div>
+						</a>
 					</div>
 					<div class="col-xs-12 col-md-6">
-						<div data-content="This is some text that will appear when I hover over this container." class="work-panel top-right-panel">
+						<a data-scroll href="#top-right-panel-link" data-content="This is some text that will appear when I hover over this container." class="work-panel top-right-panel">
 							<img src="https://placekitten.com/350/350" />
-						</div>
+						</a>
 					</div>
 				</div>
 
 				<div class="row">
 					<div class="col-xs-12 col-md-6">
-						<div data-content="This is some text that will appear when I hover over this container." class="work-panel bottom-left-panel">
+						<a data-scroll href="#bottom-left-panel-link" data-content="This is some text that will appear when I hover over this container." class="work-panel bottom-left-panel">
 							<img src="https://placekitten.com/350/350" />
-						</div>
+						</a>
 					</div>
 					<div class="col-xs-12 col-md-6">
-						<div data-content="This is some text that will appear when I hover over this container." class="work-panel bottom-right-panel">
+						<a data-scroll href="#bottom-right-panel-link" data-content="This is some text that will appear when I hover over this container." class="work-panel bottom-right-panel">
 							<img src="https://placekitten.com/350/350" />
-						</div>
+						</a>
 					</div>
 				</div>
+
+				<div id="top-left-panel-link" class="row">
+					<div class="col-xs-12">
+						Link from the top left panel.
+					</div>
+				</div>
+
+				<div id="top-right-panel-link" class="row">
+					<div class="col-xs-12">
+						Link from the top right panel.
+					</div>
+				</div>
+
+				<div id="bottom-left-panel-link" class="row">
+					<div class="col-xs-12">
+						Link from the bottom left panel.
+					</div>
+				</div>
+
+				<div id="bottom-right-panel-link" class="row">
+					<div class="col-xs-12">
+						Link from the bottom right panel.
+					</div>
+				</div>
+
 			</div>
 
 			<div class="tab-pane" id="about" role="tabpanel">
@@ -103,4 +130,9 @@
 		</div>
 
 	</body>
+
+	<script>
+	    smoothScroll.init();
+	</script>
+
 </html>

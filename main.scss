@@ -83,4 +83,32 @@ body#website-main-container {
 			}
 		}
 	}
+
+	#top-left-panel-link {
+		background-color: red;
+		padding: 50px;
+		text-align: center;
+		height: 400px;
+	}
+
+	#top-right-panel-link {
+		background-color: gray;
+		padding: 50px;
+		text-align: center;
+		height: 400px;
+	}
+
+	#bottom-left-panel-link {
+		background-color: pink;
+		padding: 50px;
+		text-align: center;
+		height: 400px;
+	}
+
+	#bottom-right-panel-link {
+		background-color: green;
+		padding: 50px;
+		text-align: center;
+		height: 400px;
+	}
 }
